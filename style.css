@@ -1,0 +1,35 @@
+body{
+    background-image: url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    backdrop-filter: blur(5px);
+    background-color: hsl(0, 0%, 100%, 0.1);
+    width: 100%;
+}
+h1{
+    font-family: Helvetica;
+    color: hsl(0, 0%, 20%);
+    font-size: 4em;
+    text-align: center;
+}
+h2{
+    font-family: monospace;
+    font-size: 3rem;
+    text-align: center;
+    color: hsl(0, 0%, 40%);
+}
+#clock{
+    font-family: monospace;
+    font-size: 3rem;
+    text-align: center;
+    color: hsl(0, 0%, 40%);
+}
+#date{
+    font-family: monospace;
+    font-size: 3rem;
+    text-align: center;
+    color: hsl(0, 0%, 40%);
+}
